@@ -1,8 +1,8 @@
+import AboutImage from '@/components/AboutImage'
 import AboutUsHome from '@/components/AboutUsHome'
 import Copyright from '@/components/Copyright'
 import Features from '@/components/Features'
 import Footer from '@/components/Footer'
-import HomeImage from '@/components/HomeImage'
 import ImageColumn from '@/components/ImageColumn'
 import Map from '@/components/Map'
 import News from '@/components/News'
@@ -12,21 +12,21 @@ import Social from '@/components/Social'
 import Testimonial from '@/components/Testimonial'
 import Image from 'next/image'
 
-export default function Home() {
+export default function About() {
   return (
     <main className="">
       
       <div className="">
-      <HomeImage />
+      <AboutImage />
       <AboutUsHome />
-      <ImageColumn />
+      {/* <ImageColumn /> */}
       <Features />
-      <Projects />
+      {/* <Projects /> */}
       <Offer />
       <Testimonial />
       <News />
       <Map />
-      <Social />
+      {/* <Social /> */}
       <Footer />
       <Copyright />
       </div>
