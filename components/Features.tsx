@@ -4,15 +4,13 @@ import React from 'react'
 const Features = () => {
   return (  //relative z-10 flex bg-white drop-shadow-4xl max-h-[91px] flex-col items-center justify-between
     <div className='flex min-h-screen items-center bg-white py-24'>
+      
       <div className=' max-w-5xl mx-auto w-full flex flex-col items-center'>
         <div className='flex flex-col items-center w-[60%] text-center mb-24'>
-
-          {/* (i) Rectangle with "About Us" */}
-          <div className='px-4 py-1.5 inline-block	 bg-orange text-lg	font-bold	mb-6 text-white'>
+          <div className='px-4 py-1.5 inline-block	 bg-green text-lg	font-bold	mb-6 text-white'>
             Features
           </div>
-          {/* (ii) Title */}
-          <div className=' text-4xl text-blue leading-snug	 font-extrabold mt-4 md:mt-8'>
+          <div className=' text-4xl md:text-2xl text-blue leading-snug	 font-extrabold mt-4 md:mt-8'>
           To increase productivity and cost effectiveness on the market.
           </div>                
         </div>
@@ -20,7 +18,7 @@ const Features = () => {
           <div>
             <Image 
             className='mb-8'
-            src='/icons/icon1.png.webp'
+            src='/icons/icon1.png'
             width={61}
             height={61}
             alt='Quality Image'
@@ -33,7 +31,7 @@ const Features = () => {
           <div>
             <Image 
             className='mb-8'
-            src='/icons/icon2.png.webp'
+            src='/icons/icon2.png'
             width={61}
             height={61}
             alt='Quality Image'
@@ -46,7 +44,7 @@ const Features = () => {
           <div>
             <Image 
             className='mb-8'
-            src='/icons/icon3.png.webp'
+            src='/icons/icon3.png'
             width={61}
             height={61}
             alt='Quality Image'
@@ -59,7 +57,7 @@ const Features = () => {
           <div>
             <Image 
             className='mb-8'
-            src='/icons/icon4.png.webp'
+            src='/icons/icon4.png'
             width={61}
             height={61}
             alt='Quality Image'

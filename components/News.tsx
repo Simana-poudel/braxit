@@ -9,7 +9,7 @@ const News = () => {
 
       <div className=''>
             {/* (i) Rectangle with "About Us" */}
-            <div className='px-4 py-1.5 inline-block	 bg-orange text-lg	font-bold	mb-6 text-white'>
+            <div className='px-4 py-1.5 inline-block	 bg-green text-lg	font-bold	mb-6 text-white'>
               From News
             </div>
             {/* (ii) Title */}

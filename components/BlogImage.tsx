@@ -11,9 +11,8 @@ const BlogImage = () => {
             className='h-[500px] z-0 brightness-50'
             src='/icons/hero2.png.webp'
             alt='Background picture of homepage'
-            layout='fill'
-            objectFit='cover'
-            objectPosition='center'
+            fill
+            style={{objectFit:"cover"}}
             />
             <h1 className='z-1 relative mb-56 pt-12 text-white font-normal text-5xl'>About Us </h1>
        </div>

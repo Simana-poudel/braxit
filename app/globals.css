@@ -80,7 +80,7 @@
   height: 0;
   border-style: solid;
   border-width: 0 0 31px 34px;
-  border-color: transparent transparent #FF3514 transparent;
+  border-color: transparent transparent #409c57 transparent;
   position: absolute;
   top: 264px;
   content: "";
@@ -159,3 +159,28 @@
 	transition: .4s ease-out;
 }
 
+/* parallax effect */
+.parallax {
+  /* The image used */
+  background-image: url('/hero.png');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+:root {
+  --primary: #56b96f;
+  --heading: #333333;
+  --text: #666666;
+
+  /* --gradeint-1: #56b96f;
+--gradient-2: #83D475; */
+  --gradeint-1: #2cdd9b;
+  --gradient-2: #1dc8cc;
+}

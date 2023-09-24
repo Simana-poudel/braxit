@@ -8,7 +8,7 @@ const Testimonial = () => {
       <div className=' max-w-5xl mx-auto w-full flex flex-col items-center'>
         <div className='flex flex-col items-center w-[48%] text-center mb-24'>
           {/* (i) Rectangle with "About Us" */}
-          <div className='px-4 py-1.5 inline-block	 bg-orange text-lg	font-bold	mb-6 text-white'>
+          <div className='px-4 py-1.5 inline-block	 bg-green text-lg	font-bold	mb-6 text-white'>
             Testimonial
 
           </div>

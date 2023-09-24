@@ -14,7 +14,7 @@ const Projects = () => {
               <h1 className='mb-5 font-medium	uppercase text-xl	text-blue'>Building yead</h1>
               <p className='text-gray text-base'>We collect and analyze information about your general usage of the website to the products services and courses.</p>
             </div>
-            <div className='bg-orange py-8 flex items-center justify-center '>
+            <div className='bg-green py-8 flex items-center justify-center '>
               <a className='text-white  ' href="#">View More</a>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Projects = () => {
               <h1 className="mb-5 font-medium uppercase text-xl text-blue">Building yead</h1>
               <p className="text-gray text-base ">We collect and analyze information about your general usage of the website to the products services and courses.</p>
             </div>
-            <div className="bg-orange py-8 flex items-center justify-center "> 
+            <div className="bg-green py-8 flex items-center justify-center "> 
               <a className="text-white" href="#">View More</a>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Projects = () => {
               <h1 className="mb-5 font-medium uppercase text-xl text-blue">Building yead</h1>
               <p className="text-gray text-base ">We collect and analyze information about your general usage of the website to the products services and courses.</p>
             </div>
-            <div className="bg-orange py-8 flex items-center justify-center "> 
+            <div className="bg-green py-8 flex items-center justify-center "> 
               <a className="text-white" href="#">View More</a>
             </div>
           </div>

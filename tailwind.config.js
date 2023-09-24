@@ -17,10 +17,13 @@ module.exports = {
     },
     extend: {
       colors: {
+        'green':'#409c57',
         'orange': '#FF3514',
         'blue' : '#072366',
         'gray' : '#57667e',
         'sky-blue' : '#f7f7fd',
+        'gradient-1': '#2cdd9b',
+        'gradient-2': '#1dc8cc',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

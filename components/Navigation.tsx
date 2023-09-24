@@ -66,6 +66,8 @@ export default function Navigation() {
             alt='Company Logo'
             />
         </div>
+        
+        <div className="md:flex hidden">
         <NavigationMenu>
             <NavigationMenuList>
               <NavigationMenuItem>
@@ -153,6 +155,19 @@ export default function Navigation() {
                 </NavigationMenuItem>
               </NavigationMenuList>
             </NavigationMenu>
+        </div>
+
+        <div className="md:hidden flex">
+        <div className="mr-4">
+
+        <Image 
+        src='/icons/menu.png'
+        width={36}
+        height={36}
+        alt="Menu Icon"
+        />
+        </div>
+        </div>
         </div>
     </div>
   )

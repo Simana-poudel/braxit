@@ -65,7 +65,7 @@ export default function CardWithForm() {
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline">Cancel</Button>
-        <Button className="bg-orange">Send Message</Button>
+        <Button className="bg-green">Send Message</Button>
       </CardFooter>
     </Card>
   )

@@ -2,14 +2,14 @@ import React from 'react';
 
 const AboutUsHome = () => {
   return (
-    <div className='flex min-h-screen items-center bg-[#FFF7F5] p-4 md:p-24'>
-      <div className=' md:flex items-center justify-between text-sm '>
+    <div className=' flex min-h-screen items-center bg-[#FFF7F5] p-4 md:p-24 2xl:mt-40 xl:mt-48'>
+      <div className=' md:flex items-center justify-between text-sm context'>
         {/* Left Division */}
         <div className='md:w-1/2 md:pr-4'>
           {/* Nested Divisions */}
           <div className=''>
             {/* (i) Rectangle with "About Us" */}
-            <div className='px-4 py-1.5 inline-block bg-orange text-lg	font-bold	mb-6 text-white'>
+            <div className='px-4 py-1.5 inline-block bg-green text-lg	font-bold	mb-6 text-white'>
               About Us
             </div>
             {/* (ii) Title */}
@@ -27,11 +27,11 @@ const AboutUsHome = () => {
           </div>
           <div className='flex'>
             <div className='w-1/2'>
-              <span className='text-orange text-6xl	font-medium'>454 m</span>
+              <span className='text-green text-6xl	font-medium'>454 m</span>
               <p className='text-[#10285d] text-base leading-8	mb-4 font-normal	'>Delivery Packages</p>
             </div>
             <div className='w-1/2'>
-            <span className='text-orange text-6xl	font-medium	'>127</span>
+            <span className='text-green text-6xl	font-medium	'>127</span>
               <p className='text-[#10285d] text-base leading-8	mb-4 font-normal'>Countries Covered</p>
             </div>
 
@@ -47,13 +47,13 @@ const AboutUsHome = () => {
           />
 
           {/* Text Overlay */}
-          <div className=' absolute bottom-0 left-0 bg-orange p-2 h-44'>
+          <div className=' absolute bottom-0 left-0 bg-green p-2 h-44'>
             <div className='mt-[30%]'>
             <div className='flex items-center justify-center text-white text-5xl	'>20</div>
             <p className='flex items-center justify-center text-white text-base'>Years of experience</p>
           </div>
             </div>
-          <div className='bg-[#FF3514] about-low-area about-right-cap img-cap'></div>
+          <div className='bg-green about-low-area about-right-cap img-cap'></div>
 
         </div>
       </div>
