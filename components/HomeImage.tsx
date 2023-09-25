@@ -34,9 +34,9 @@ const HomeImage = () => {
   };
 
   return (
-    <div className='flex items-center p-24'>
-       
-       <div className='md:flex hidden max-w-6xl items-center justify-between text-sm'>
+    <div className='relative flex items-center p-24 flex-col'>
+       {/* desktop navigation */}
+       <div className='md:flex hidden w-full max-w-5xl items-center justify-between text-sm'>
           <div>
             <Image 
             className='h-[500px] z-0'
@@ -79,9 +79,8 @@ const HomeImage = () => {
        </div>
 
       {/* mobile navigation */}
-      <div className='md:hidden max-w-5xl items-center text-sm'>
-          <div
-          >
+      <div className='md:hidden flex w-full max-w-5xl items-center justify-between text-sm'>
+          <div className=''>
             <Image 
             className='z-0 brightness-50'
             src='/hero.png'
@@ -94,7 +93,7 @@ const HomeImage = () => {
               animate="visible"
               >
                 <motion.h1 
-                className='gradient z-1 relative mb-7 text-white  font-bold text-5xl '
+                className='gradient z-1 relative mb-7 text-white  font-bold text-3xl '
                 variants={descriptionVariants}
                 initial="hidden"
                 animate="visible"
@@ -105,7 +104,7 @@ const HomeImage = () => {
                   </motion.span>
                 </motion.h1>
                 <motion.p 
-                className='z-1 text-2xl mb-12 relative text-white'
+                className='z-1 text-base mb-12 relative text-white'
                 variants={descriptionVariants}
                 initial="hidden"
                 animate="visible"

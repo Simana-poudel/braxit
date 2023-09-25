@@ -2,8 +2,8 @@ import React from 'react';
 
 const Social = () => {
   return (
-    <div className="text-center p-12 mb-12 bg-[#FFF7F5] 2xl:mt-40">
-      <h2 className="text-2xl font-bold mb-4 text-blue">Let's Get Social</h2>
+    <div className="text-center p-12 mb-12 bg-[#FFF7F5] mt-16 md:mt-40">
+      <h2 className="text-2xl font-bold  mb-4 text-blue">Let's Get Social</h2>
       <div className="flex justify-center space-x-6 my-8">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
           <img

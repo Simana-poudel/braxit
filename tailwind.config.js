@@ -21,6 +21,7 @@ module.exports = {
         'orange': '#FF3514',
         'blue' : '#072366',
         'gray' : '#57667e',
+        'bg-1' : '#f7f7fd',
         'sky-blue' : '#f7f7fd',
         'gradient-1': '#2cdd9b',
         'gradient-2': '#1dc8cc',

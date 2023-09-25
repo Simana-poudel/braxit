@@ -5,10 +5,10 @@ import CardWithForm from './Suscribe'
 const Testimonial = () => {
   return (
     <div className='flex items-center bg-white py-24'>
-      <div className=' max-w-5xl mx-auto w-full flex flex-col items-center'>
+      <div className='md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
         <div className='flex flex-col items-center w-[48%] text-center mb-24'>
           {/* (i) Rectangle with "About Us" */}
-          <div className='px-4 py-1.5 inline-block	 bg-green text-lg	font-bold	mb-6 text-white'>
+          <div className='px-4 py-1.5 inline-block	bg-gradient-to-r from-gradient-1 to-gradient-2 text-lg	font-bold	mb-6 text-white'>
             Testimonial
 
           </div>
@@ -45,6 +45,38 @@ const Testimonial = () => {
         <div>
           <CardWithForm />
         </div>         
+        </div>
+      </div>
+
+      {/* mobile navigation */}
+
+      <div className='md:hidden flex max-w-5xl mx-auto w-full flex-col items-center'>
+        <div className='flex flex-col items-center w-[48%] text-center mb-24'>
+          {/* (i) Rectangle with "About Us" */}
+          <div className='px-4 py-1.5 inline-block	bg-gradient-to-r from-gradient-1 to-gradient-2 text-lg	font-bold	mb-6 text-white'>
+            Testimonial
+
+          </div>
+          {/* (ii) Title */}
+          <div className=' text-2xl text-blue leading-snug	 font-extrabold mt-4 md:mt-8'>
+          Some amazing words from our clients          </div>                
+        </div>
+
+        <div className='grid grid-cols-2 gap-0 w-[100%]'>
+          <div className='pt-8 pb-4 px-2  bg-sky-blue'>
+          <p className='mb-2 text-[#140C40] text-sm leading-8'>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
+          <div className=''>
+          <span className='text-xs'>-Simon Gates,</span>
+          <p className='text-gray text-xs	'>Business Man</p>
+          </div>
+          </div> 
+          <div className=''
+          style={{ backgroundImage: 'url(/icons/people1.png)', backgroundRepeat: 'no-repeat' }}
+          >
+          </div> 
+          <div className='col-span-2'>
+            <CardWithForm />
+          </div>         
         </div>
       </div>
     </div>
