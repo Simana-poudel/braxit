@@ -3,10 +3,8 @@ const nextConfig = {
   experimental: {
     images: true, // Enable the experimental images feature
   },
+  output: 'standalone',
 
-  // Remove the 'output' configuration and use 'target' instead
-  // Configure 'target' for static HTML export
-  target: 'experimental-serverless-trace',
 };
 
 module.exports = nextConfig;
