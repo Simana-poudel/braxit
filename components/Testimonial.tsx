@@ -19,7 +19,7 @@ const Testimonial = () => {
 
         <div className='grid grid-cols-2 gap-0 w-[100%]'>
         <div className='pt-24 pb-5 px-14 bg-sky-blue'>
-          <p className='mb-9 text-[#140C40] text-2xl leading-8'>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
+          <p className='mb-9 text-[#140C40] text-2xl leading-8'>`&quot;`Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
           <div className='mb-8'>
 
           <span>-Simon Gates,</span>
@@ -64,7 +64,7 @@ const Testimonial = () => {
 
         <div className='grid grid-cols-2 gap-0 w-[100%]'>
           <div className='pt-8 pb-4 px-2  bg-sky-blue'>
-          <p className='mb-2 text-[#140C40] text-sm leading-8'>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
+          <p className='mb-2 text-[#140C40] text-sm leading-8'>`&quot;`Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
           <div className=''>
           <span className='text-xs'>-Simon Gates,</span>
           <p className='text-gray text-xs	'>Business Man</p>

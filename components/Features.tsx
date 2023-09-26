@@ -5,7 +5,7 @@ const Features = () => {
   return (  //relative z-10 flex bg-white drop-shadow-4xl max-h-[91px] flex-col items-center justify-between
     <div className='flex min-h-screen items-center bg-white py-24'>
       
-      <div className='md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
+      <div  className=' md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
         <div className='flex flex-col items-center w-[60%] text-center mb-24'>
           <div className='px-4 py-1.5 inline-block bg-gradient-to-r from-gradient-1 to-gradient-2 text-lg	font-bold	mb-6 text-white'>
             Features
@@ -15,7 +15,7 @@ const Features = () => {
           </div>                
         </div>
         <div className='column w-[100%] grid grid-cols-4 gap-0'>
-          <div>
+          <div data-aos="fade-up-right" data-aos-duration="1000">
             <Image 
             className='mb-8'
             src='/icons/icon1.png'
@@ -28,7 +28,7 @@ const Features = () => {
               <p className='text-gray text-base'>We collect and analyze information about your general usage of the website, products, services, and courses.</p>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up-right">
             <Image 
             className='mb-8'
             src='/icons/icon2.png'
@@ -41,7 +41,7 @@ const Features = () => {
               <p className='text-gray text-base'>We collect and analyze information about your general usage of the website, products, services, and courses.</p>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up-left" data-aos-duration="1000">
             <Image 
             className='mb-8'
             src='/icons/icon3.png'
@@ -54,7 +54,7 @@ const Features = () => {
               <p className='text-gray text-base'>We collect and analyze information about your general usage of the website, products, services, and courses.</p>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-up-left" data-aos-duration="1000">
             <Image 
             className='mb-8'
             src='/icons/icon4.png'
@@ -81,7 +81,7 @@ const Features = () => {
           </div>                
         </div>
         <div className='column w-[100%] grid grid-cols-1 gap-y-8 gap-x-2 p-4'>
-          <div className='flex-col'>
+          <div className='flex-col' data-aos-duration="1000">
 
             <Image 
             className='mb-8'

@@ -1,15 +1,9 @@
+import Image from 'next/image';
 import React from 'react';
-
 const AboutUsHome = () => {
-
-  const container = {
-    hidden: { opacity: 0},
-    visible: { opacity: 1},
-  }
-
   
   return (
-    <div className=' flex min-h-screen items-center bg-[#FFF7F5] p-4 md:p-24'>
+    <div data-aos="fade-up" className=' flex min-h-screen items-center bg-[#FFF7F5] p-4 md:p-24'>
       <div className=' md:flex hidden max-w-5xl items-center justify-between text-sm context w-full mx-auto'>
         {/* Left Division */}
         <div className='md:w-1/2 md:pr-4'>
@@ -47,7 +41,7 @@ const AboutUsHome = () => {
 
         {/* Right Division with Image */}
         <div className='md:w-1/2 justify-center mt-4 md:mt-0 md:ml-4 flex relative'>
-          <img
+          <Image
             src='/icons/about1.png.webp' // Replace with your image URL
             alt='About Us'
             className='w-full  md:w-[80%] h-[470px] object-cover'
@@ -103,7 +97,7 @@ const AboutUsHome = () => {
 
         {/* Right Division with Image */}
         <div className='md:w-1/2 justify-center mt-4 md:mt-0 md:ml-4 flex relative'>
-          <img
+          <Image
             src='/icons/about1.png.webp' // Replace with your image URL
             alt='About Us'
             className='w-full  md:w-[80%] h-[470px] object-cover'

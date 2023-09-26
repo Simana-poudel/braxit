@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
+import Image from 'next/image'
 
 const Copyright = () => {
   return (
@@ -9,21 +10,21 @@ const Copyright = () => {
         <div className='mt-4'>
         <div className="flex justify-start md:justify-end space-x-2">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/youtube.png"  // Replace with the actual path to your YouTube icon
             alt="YouTube"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
           />
         </a>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/facebook.png"  // Replace with the actual path to your Facebook icon
             alt="Facebook"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
           />
         </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             src="/linkedin.png"  // Replace with the actual path to your LinkedIn icon
             alt="LinkedIn"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
