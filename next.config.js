@@ -3,7 +3,7 @@ const nextConfig = {
   experimental: {
     images: true, // Enable the experimental images feature
   },
-  output: 'standalone',
+  output: 'export',
 
 };
 
