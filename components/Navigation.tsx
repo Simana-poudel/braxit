@@ -14,42 +14,31 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import Image from "next/image"
+import Menu from "./Menu"
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "Project Details",
+    href: "/blog",
     description:
       "A modal dialog that interrupts the user with important content and expects a response.",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "Service Details",
+    href: "/blog",
     description:
       "For sighted users to preview content available behind a link.",
   },
   {
-    title: "Progress",
+    title: "Contact details",
     href: "/docs/primitives/progress",
     description:
       "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
   },
   {
-    title: "Scroll-area",
+    title: "Project details",
     href: "/docs/primitives/scroll-area",
     description: "Visually or semantically separates content.",
-  },
-  {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
-    description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-  },
-  {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
   },
 ]
 
@@ -109,23 +98,22 @@ export default function Navigation() {
                             href="/"
                           >
                             <div className="mb-2 mt-4 text-lg font-medium">
-                              shadcn/ui
+                              Company Name
                             </div>
                             <p className="text-sm leading-tight text-muted-foreground">
-                              Beautifully designed components built with Radix UI and
-                              Tailwind CSS.
+                              Company slogan
                             </p>
                           </a>
                         </NavigationMenuLink>
                       </li>
-                      <ListItem href="/docs" title="Introduction">
-                        Re-usable components built using Radix UI and Tailwind CSS.
+                      <ListItem href="/docs" title="Blog 1">
+                        Description of blog 1
                       </ListItem>
-                      <ListItem href="/docs/installation" title="Installation">
-                        How to install dependencies and structure your app.
+                      <ListItem href="/docs/installation" title="Blog 2">
+                      Description of blog 2
                       </ListItem>
-                      <ListItem href="/docs/primitives/typography" title="Typography">
-                        Styles for headings, paragraphs, lists...etc
+                      <ListItem href="/docs/primitives/typography" title="Blog 3">
+                      Description of blog 3
                       </ListItem>
                     </ul>
                   </NavigationMenuContent>
@@ -158,17 +146,11 @@ export default function Navigation() {
         </div>
 
         <div className="md:hidden flex">
-        <div className="mr-4">
-
-        <Image 
-        src='/icons/menu.png'
-        width={36}
-        height={36}
-        alt="Menu Icon"
-        />
+          <div className="mr-4">
+            <Menu />
+          </div>
         </div>
-        </div>
-        </div>
+      </div>
     </div>
   )
 }

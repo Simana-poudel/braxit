@@ -1,6 +1,13 @@
 import React from 'react';
 
 const AboutUsHome = () => {
+
+  const container = {
+    hidden: { opacity: 0},
+    visible: { opacity: 1},
+  }
+
+  
   return (
     <div className=' flex min-h-screen items-center bg-[#FFF7F5] p-4 md:p-24'>
       <div className=' md:flex hidden max-w-5xl items-center justify-between text-sm context w-full mx-auto'>

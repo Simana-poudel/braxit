@@ -22,7 +22,6 @@ export default function Project() {
       <Offer />
       <Testimonial />
       <Map />
-
       <Footer />
       <Copyright />
       </div>

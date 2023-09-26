@@ -3,7 +3,7 @@ import MapComponent from './Map/MapComponent'
 
 export const Map = () => {
   return (
-    <div className=' h-[450px] '>
+    <div className=' h-[450px]'>
       <MapComponent />
     </div>
   )
