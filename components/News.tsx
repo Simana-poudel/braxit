@@ -26,8 +26,18 @@ const News = () => {
 
         <div className='pt-8 pb-5 px-10 bg-sky-blue'>
         <div className="gallery">
-            <Image src="/icons/news1.png" alt="a lioness" />
-            <Image src="/icons/news2.webp" alt="a wolf" />
+        <Image 
+            width={500}
+            height={250} 
+            src="/icons/news2.webp" 
+            alt="a wolf" 
+            />
+            <Image
+            width={500}
+            height={250} 
+            src="/icons/news1.png" 
+            alt="a lioness" 
+            />
           </div>
           {/* <Image 
           src='/icons/news1.png'
@@ -44,8 +54,18 @@ const News = () => {
 
         <div className='pt-8 pb-5 px-10 bg-sky-blue'>
           <div className="gallery">
-            <Image src="/icons/news2.webp" alt="a wolf" />
-            <Image src="/icons/news1.png" alt="a lioness" />
+          <Image 
+            width={500}
+            height={250} 
+            src="/icons/news2.webp" 
+            alt="a wolf" 
+            />
+            <Image
+            width={500}
+            height={250} 
+            src="/icons/news1.png" 
+            alt="a lioness" 
+            />
           </div>
           {/* <Image 
           src='/icons/news2.webp'
@@ -90,8 +110,18 @@ const News = () => {
 
         <div className='pt-8 pb-5 px-10 bg-sky-blue'>
         <div className="gallery">
-            <Image src="/icons/news1.png" alt="a lioness" />
-            <Image src="/icons/news2.webp" alt="a wolf" />
+        <Image 
+            width={500}
+            height={250} 
+            src="/icons/news2.webp" 
+            alt="a wolf" 
+            />
+            <Image
+            width={500}
+            height={250} 
+            src="/icons/news1.png" 
+            alt="a lioness" 
+            />
           </div>
           {/* <Image 
           src='/icons/news1.png'
@@ -108,8 +138,18 @@ const News = () => {
 
         <div className='pt-8 pb-5 px-10 bg-sky-blue'>
           <div className="gallery">
-            <Image src="/icons/news2.webp" alt="a wolf" />
-            <Image src="/icons/news1.png" alt="a lioness" />
+            <Image 
+            width={500}
+            height={250} 
+            src="/icons/news2.webp" 
+            alt="a wolf" 
+            />
+            <Image
+            width={500}
+            height={250} 
+            src="/icons/news1.png" 
+            alt="a lioness" 
+            />
           </div>
           {/* <Image 
           src='/icons/news2.webp'

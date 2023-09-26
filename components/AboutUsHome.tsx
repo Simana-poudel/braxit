@@ -45,6 +45,8 @@ const AboutUsHome = () => {
             src='/icons/about1.png.webp' // Replace with your image URL
             alt='About Us'
             className='w-full  md:w-[80%] h-[470px] object-cover'
+            width={400}
+            height={470}
           />
 
           {/* Text Overlay */}
@@ -101,6 +103,8 @@ const AboutUsHome = () => {
             src='/icons/about1.png.webp' // Replace with your image URL
             alt='About Us'
             className='w-full  md:w-[80%] h-[470px] object-cover'
+            width={400}
+            height={470}
           />
 
           {/* Text Overlay */}

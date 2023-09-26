@@ -8,6 +8,8 @@ const Social = () => {
       <div className="flex justify-center space-x-6 my-8">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={36}
+            height={36}
             src="/youtube.png"  // Replace with the actual path to your YouTube icon
             alt="YouTube"
             className="w-8 h-8 hover:opacity-75 transition-opacity"
@@ -15,6 +17,8 @@ const Social = () => {
         </a>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={36}
+            height={36}
             src="/facebook.png"  // Replace with the actual path to your Facebook icon
             alt="Facebook"
             className="w-8 h-8 hover:opacity-75 transition-opacity"
@@ -22,6 +26,8 @@ const Social = () => {
         </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={36}
+            height={36}
             src="/linkedin.png"  // Replace with the actual path to your LinkedIn icon
             alt="LinkedIn"
             className="w-8 h-8 hover:opacity-75 transition-opacity"

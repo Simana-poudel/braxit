@@ -11,6 +11,8 @@ const Copyright = () => {
         <div className="flex justify-start md:justify-end space-x-2">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={20}
+            height={20}
             src="/youtube.png"  // Replace with the actual path to your YouTube icon
             alt="YouTube"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
@@ -18,6 +20,8 @@ const Copyright = () => {
         </a>
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={20}
+            height={20}
             src="/facebook.png"  // Replace with the actual path to your Facebook icon
             alt="Facebook"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
@@ -25,6 +29,8 @@ const Copyright = () => {
         </a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
           <Image
+            width={20}
+            height={20}
             src="/linkedin.png"  // Replace with the actual path to your LinkedIn icon
             alt="LinkedIn"
             className="w-5 h-5 hover:opacity-75 transition-opacity"
