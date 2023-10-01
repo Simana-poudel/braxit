@@ -5,9 +5,9 @@ const News = () => {
   return (
     <div className='flex items-center bg-white md:py-8 xl:py-24'>
       {/* desktop navigation */}
-      <div className='md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
+      <div data-aos="fade-right" className='md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
       <div className='grid grid-cols-3 gap-4 w-[100%]'>
-      <div className=''>
+      <div  className=''>
             {/* (i) Rectangle with "About Us" */}
             <div className='px-4 py-1.5 inline-block	bg-gradient-to-r from-gradient-1 to-gradient-2 text-lg	font-bold	mb-6 text-white'>
               From News

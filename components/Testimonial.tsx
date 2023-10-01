@@ -17,7 +17,7 @@ const Testimonial = () => {
           Some amazing words from our clients          </div>                
         </div>
 
-        <div className='grid grid-cols-2 gap-0 w-[100%]'>
+        <div data-aos="fade-right" className='grid grid-cols-2 gap-0 w-[100%]'>
         <div className='pt-24 pb-5 px-14 bg-sky-blue'>
           <p className='mb-9 text-[#140C40] text-2xl leading-8'>`&quot;`Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through.</p>
           <div className='mb-8'>

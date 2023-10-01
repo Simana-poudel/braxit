@@ -6,8 +6,8 @@ const Projects = () => {
       <div className='md:flex hidden min-h-[600px] items-end '
       style={{  backgroundImage: 'url(/icons/section1.png)', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}
       >
-        <div className='  max-w-5xl mx-auto w-full flex flex-col items-end '>
-        <div className='w-[100%] grid grid-cols-3 gap-1'>
+        <div className='max-w-5xl mx-auto w-full flex flex-col items-end '>
+        <div data-aos="fade-right" className='w-[100%] grid grid-cols-3 gap-1'>
           
           <div className='hover:cursor-pointer'>
             <div className='bg-white pt-8 pr-9 pb-7 pl-5'>
@@ -52,7 +52,7 @@ const Projects = () => {
             our projects
           </div>
         <div className='flex flex-col items-end'>
-        <div className='w-[100%] grid grid-cols-1 gap-1'>
+        <div data-aos="fade-right" className='w-[100%] grid grid-cols-1 gap-1'>
           
           <div className=''>
             <div className='pt-8 pr-9 pb-7 pl-5'>

@@ -4,12 +4,8 @@ const ImageColumn = () => {
   return (
     <div>
 
-    <div className='md:flex hidden grid grid-cols-3 gap-0'>
+    <div data-aos="fade-right" className='md:flex hidden grid grid-cols-3 gap-0'>
         <div
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="30"
-          data-aos-offset="0"
           className='h-96 hover:cursor-pointer hover:brightness-50 flex flex-col justify-center items-center text-white'
           style={{ backgroundImage: 'url(/icons/gallery1.png.webp)' }}
         >
@@ -19,10 +15,7 @@ const ImageColumn = () => {
         </div>
 
         <div
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="20"
-          data-aos-offset="0"
+          
           className='h-96 hover:cursor-pointer hover:brightness-50 flex flex-col justify-center items-center text-white'
           style={{ backgroundImage: 'url(/icons/gallery2.png.webp)' }}
         >
@@ -32,10 +25,6 @@ const ImageColumn = () => {
         </div>
 
         <div
-          data-aos="fade-zoom-in"
-          data-aos-easing="ease-in-back"
-          data-aos-delay="30"
-          data-aos-offset="0"
           className='h-96 hover:cursor-pointer hover:brightness-50 flex flex-col justify-center items-center text-white'
           style={{ backgroundImage: 'url(/icons/gallery3.png.webp)' }}
         >
@@ -46,7 +35,7 @@ const ImageColumn = () => {
     </div>
 
     {/* mobile navigation */}
-    <div className='sm:hidden flex-col flex'>
+    <div data-aos="fade-right" className='sm:hidden flex-col flex'>
         <div
           className='h-96 hover:cursor-pointer hover:brightness-50 flex flex-col justify-center items-center text-white'
           style={{ backgroundImage: 'url(/icons/gallery1.png.webp)' }}

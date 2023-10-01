@@ -5,7 +5,7 @@ const Features = () => {
   return (  //relative z-10 flex bg-white drop-shadow-4xl max-h-[91px] flex-col items-center justify-between
     <div className='flex min-h-screen items-center bg-white py-24'>
       
-      <div  className=' md:flex hidden max-w-5xl mx-auto w-full flex flex-col items-center'>
+      <div  className='md:flex hidden max-w-5xl mx-auto w-full flex-col items-center'>
         <div className='flex flex-col items-center w-[60%] text-center mb-24'>
           <div className='px-4 py-1.5 inline-block bg-gradient-to-r from-gradient-1 to-gradient-2 text-lg	font-bold	mb-6 text-white'>
             Features
@@ -80,7 +80,7 @@ const Features = () => {
           To increase productivity and cost effectiveness on the market.
           </div>                
         </div>
-        <div className='column w-[100%] grid grid-cols-1 gap-y-8 gap-x-2 p-4'>
+        <div data-aos="fade-right" className='column w-[100%] grid grid-cols-1 gap-y-8 gap-x-2 p-4'>
           <div className='flex-col' data-aos-duration="1000">
 
             <Image 
